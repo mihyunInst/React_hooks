@@ -9,6 +9,8 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  // index.js에서 strickMode가 존재하면 초기 두번 렌더링 된다.
+  // -> 개발 모드에서 오류를 잡기 위해서 
 );
 
 // If you want to start measuring performance in your app, pass a function
